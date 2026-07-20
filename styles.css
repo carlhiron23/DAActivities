@@ -61,11 +61,16 @@ p, a, span, label, button, .button {
   display: flex;
   align-items: center;
   gap: 14px;
+  min-width: 0;
+}
+
+.brand > div {
+  min-width: 0;
 }
 
 .logo-mark {
-  width: 232px;
-  height: 232px;
+  width: 160px;
+  height: 160px;
   display: block;
   object-fit: contain;
   flex-shrink: 0;
